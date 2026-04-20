@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/forklifts")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class ForkliftController {
     private final ForkliftService service;
 
